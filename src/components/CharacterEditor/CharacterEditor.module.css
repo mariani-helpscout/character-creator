@@ -1,6 +1,13 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    transparent 60%,
+    hsl(195deg, 20%, 86%) 60%
+  );
+  background-attachment: fixed;
 }
 
 .maxWidthWrapper {
